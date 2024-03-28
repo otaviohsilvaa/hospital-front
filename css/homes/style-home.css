@@ -63,51 +63,46 @@ header h1{
 .principal{
     background-color: var(--color4);
     height: 520px;
-    display: block;
-    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.principal h1{
+
+.container1 h1{
     color: #FFFF;
     font-size: 3.2em;
-    position: absolute;
-    top: 50%;
-    left: 15rem;
-
 }
-.principal p{
+
+.container2 p{
     color: #FFFF;
     width: 25em;
-    position: absolute;
-    top: 30%;
-    right: 25em;
     line-height: 1.8em;
-
+    font-size: 20px;
 }
 #linha{
     width: 4em;
     border: 1px solid #FFFF;
-    position: absolute;
-    top: 48%;
-    right: 45.9em;
+    margin-top: 20px;
 }
-.principal ul{
-    list-style: none;
-    position: absolute;
-    right: 26.9em;
-    top: 50%;
+.botoes{
+    width: 400px;
     columns: 2;
 }
-.principal ul li button{
-    padding: 10px 10px;
+
+.botoes button{
+    width: 185px;
+    padding: 7px 7px;
+    margin-top: 20px;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 350;
     cursor: pointer;
-    margin: 3px 0px 10px 0px;
-    border-radius: 5px;
-    border: 0px;
+    border-radius: 6px;
+    border: 1px solid var(--color4);
     transition: .5s;
+    box-shadow: 0px 0px 1px black;
 }
-.principal ul li button:hover{
+.botoes button:hover{
     color: #FFFF;
     background-color: var(--color2);
 }
@@ -115,5 +110,7 @@ header h1{
 /* ------------- Rodapé --------------- */
 
 footer  {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
