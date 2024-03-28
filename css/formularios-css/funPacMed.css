@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ------------- Raiz com Variáveis --------------- */
+:root{
+    --color1: #F7F7F7;
+    --color2: #80AAA8;
+    --color3: #025955;
+    --color4: #015450;
+}
+
+/* ------------- Cabeçalho --------------- */
+header{
+    height: 96px;
+    position: relative;
+    background-color: var(--color3);
+}
+
+header h1{
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 32px;
+    width: 210px;
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+
+.menu{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 2%;
+    
+}
+
+.menu a{
+    padding: 10px;
+    color: #FFFF;
+    text-decoration: none;
+    font-weight: 360;
+}
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    color: var(--color4);
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-container {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    width: 40%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+}
+.form p{
+    color: black;
+}
+
+.form input,
+.form select,
+.form textarea {
+    
+    width: 100px;
+    height: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+    border: 1px solid #094f29; 
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.form-container .subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.form {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.form textarea {
+    height: 100px;
+}
+
+.submit{
+    padding: 10px 10px;
+    background-color: var(--color4);
+    color: #fff;
+    border: none;
+    width: 70%;
+    
+}
+
+.submit:hover {
+    background-color: #74e284 ;
+}
+
+/* ------------- Rodapé --------------- */
+
+footer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
