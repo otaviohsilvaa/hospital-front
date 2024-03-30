@@ -22,8 +22,8 @@
 <main>
 <div class="login-container">
 <div class="form-container">
-    <h2>Cadastro de Funcionário</h2>
-    <p class="subtitle">Por favor, adicione as informações do paciente.</p>
+    <h2>Editar Funcionário</h2>
+    <p class="subtitle">Atualize as informações</p>
     <br>
 
     <form class="form" action="" method="">

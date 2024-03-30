@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,14 +19,14 @@
 
 
 <!--PRINCIPAL -->
-   <main>
+<main>
     <div class="login-container">
         <div class="form-container">
-            <h2>Cadastro de Paciente</h2>
-            <p class="subtitle">Por favor, adicione as informações do paciente.</p>
+            <h2>Editar Paciente</h2>
+            <p class="subtitle">Atualize as informações</p>
             <br>
 
-            <form class="form" action="" method="">
+            <form class="form" action="form_paciente.php" method="POST">
                     <!--SEPARANDO OS CAMPOS DO BOTAO DE ENVIAR DADOS-->
                     <div class="container-extra">
                         <!--NOME-->
@@ -58,9 +58,7 @@
                 <!--botão--> 
                 <input type="submit" name="submit" class="submit" id="submit" value="Enviar"></input>
             </form>
-    
         </div>
-        
     </div>
 </main>
 <!--PRINCIPAL -->

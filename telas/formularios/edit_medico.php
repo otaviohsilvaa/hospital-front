@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funcionário</title>
+    <title>Médico</title>
     <link rel="stylesheet" href="../../css/formularios-css/funPacMed.css">
 </head>
 <body>
@@ -22,8 +22,8 @@
 <main>
 <div class="login-container">
 <div class="form-container">
-    <h2>Cadastro de Funcionário</h2>
-    <p class="subtitle">Por favor, adicione as informações do paciente.</p>
+    <h2>Editar Médico</h2>
+    <p class="subtitle">Atualize as informações</p>
     <br>
 
     <form class="form" action="" method="">

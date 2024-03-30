@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ------------- Raiz com Variáveis --------------- */
+:root{
+    --color1: #F7F7F7;
+    --color2: #80AAA8;
+    --color3: #025955;
+    --color4: #015450;
+}
+
+/* ------------- Configuralções gerais --------------- */
+
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color: var(--color4);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: auto;
+    height: 100vh;
+}
+
+/* ------------- Cabeçalho --------------- */
+header{
+    height: 96px;
+    position: relative;
+    background-color: var(--color3);
+}
+
+header h1{
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 32px;
+    width: 210px;
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+
+.menu{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 2%;
+    
+}
+
+.menu a{
+    padding: 10px;
+    color: #FFFF;
+    text-decoration: none;
+    font-weight: 360;
+}
+
+/* ------------- Principal --------------- */
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes{
+    margin: 30px 0px 20px 0px;
+}
+
+.botoes button{
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid var(--color4);
+    transition: .5s;
+    box-shadow: 0px 0px 1px black;
+}
+.botoes button:hover{
+    color: #FFFF;
+    background-color: var(--color3);
+}
+
+.box-search{
+    display: flex;
+    width: 600px;
+    gap: .1%;
+}
+
+.box-search input{
+    width: 60%;
+    height: 37px;
+    padding: 0px 0px 0px 5px;
+    color: black;
+}
+.box-search button{
+    width: 40px;
+}
+
+.container-tabela{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela{
+    box-shadow: 0px 0px 1px black;
+    width: 600px;
+    border-collapse: collapse;
+    background-color: #FFFF;
+    margin: 1px 10px 10px 10px;
+}
+.titulo-coluna td{
+    font-weight: 500;
+}
+
+.tabela td{
+    border: 1px solid black;
+    padding: 6px;
+    color: black;
+}
+
+/* Botões de ação */
+.tabela td a{
+    text-decoration: none;
+}
+
+.tabela td .botao-edit{
+    margin-right: 10px;
+}
+
+
+
+/* ------------- Rodapé --------------- */
+
+footer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
